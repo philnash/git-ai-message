@@ -1,0 +1,15 @@
+{
+  "name": "git-ai-message",
+  "version": "1.0.0",
+  "description": "Run Langflow flows from the command line",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": "./bin/git-ai-message",
+  "scripts": {},
+  "keywords": [],
+  "author": "Phil Nash <philnash@gmail.com> (https://philna.sh/)",
+  "license": "MIT",
+  "dependencies": {
+    "@datastax/langflow-client": "^0.4.1"
+  }
+}
