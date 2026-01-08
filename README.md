@@ -13,6 +13,16 @@ This will make the `git-ai-message` command available globally on your system.
 
 ## Configuration
 
+### The Langflow Flow
+
+You will need a Langflow flow that this tool can use to generate the commit messages. You will need to install [Langflow Desktop](https://www.langflow.org/desktop) or follow the [instructions from the documentation to install Langflow in other ways](https://docs.langflow.org/get-started-installation).
+
+With Langflow installed you can import the flow JSON from this repo. You can find it in [`./langflow/AI Commit Writer.json`](./langflow/AI%20Commit%20Writer.json).
+
+You can import the JSON flow into your Langflow install. Configure an API key for the language model you want to use and it should be ready to go.
+
+### Configuring the tool
+
 Before using the tool, you need to configure your Langflow connection:
 
 ```bash
