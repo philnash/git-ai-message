@@ -25,7 +25,7 @@ This will create a configuration file at `~/.git-ai-message/config.json` and ope
 - `flowId`: The ID of the Langflow flow you want to run (required)
 - `apiKey`: Optional API key for authentication (leave empty if not needed)
 
-Example configuration:asdasdas
+Example configuration:
 
 ```json
 {
