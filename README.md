@@ -2,6 +2,8 @@
 
 A simple CLI tool that uses Langflow to process your current working directory and generate AI-powered responses.
 
+Read about how to build the Langflow flow and this application in the blog post [Generate commit messages with AI using Langflow and Git MCP server](https://www.langflow.org/blog/ai-generated-commit-messages-langflow-git-mcp).
+
 ## Installation
 
 ```bash
